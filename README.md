@@ -19,3 +19,4 @@ Model Mimarisi ve Hiperparametreler
 * İkinci denemede kalın keçeli kalem kullandığımda görüntü işleme başarılı oldu.
 * **Modelin Tahmini:** 232220205080
 * **Gerçek Numara:** 23120205010
+* *Sonuç Değerlendirmesi:* Model MNIST test setinde %98 başarı gösterse de, kendi el yazımda hatalar yaptı. Bunun nedeni dağılım kayması sorunudur. MNIST veri setindeki rakamlar kalın, düzgün ve ortalanmışken; benim yazdığım 1 rakamı eğik ve çentikli, 0 rakamları ise ovaldir. Bu durum, bir yapay zeka modelinin laboratuvar ortamındaki başarısının gerçek hayatta aynı olmayabileceğini kanıtlar.
